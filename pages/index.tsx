@@ -25,7 +25,7 @@ const Home = ({socials}) => (
   <Head>
 <title>Home</title>
 </Head>
-  <Heading text="Next JS App" />
+  <Heading text="Next JS App" tag={undefined} />
   <Socials socials={socials} />
   </div>
   );
